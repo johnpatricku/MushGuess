@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>番号を入力してください</title>
+    <link rel="stylesheet" href="homecss.css">
+</head>
+<div class="container">
+<body>
+    <h1>番号を入力してください</h1>
+    <p>Guess a number between 1 and 10:</p>
+    <input type="text" id="guessInput">
+    <button onclick="checkGuess()">Submit Guess</button>
+    <p id="result"></p>
+    <button id="retryButton" onclick="resetGame()" disabled>Retry</button>
+</div>
+
+    <script src="home.js"></script>
+</body>
+</html>

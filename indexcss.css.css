@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('mushweb.jpg');
+}
+
+.container {
+    position: unset;
+    opacity: 10;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #F94C10;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-style: oblique;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: gold;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #F5FCCD;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #EBD4CB;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #C70039;
+    color: white;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
